@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient(90deg, #f501e9, #2600fb);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 100px;
+}
+header .logo{
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+header .busca{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+header .busca input{
+    flex: 1;
+    height: 50px;
+    padding-left: 16px;
+    background-color: transparent;
+}
+header .busca button{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+header .acoes{
+    display: flex;
+    gap: 26px;
+}
+header .acoes a{
+    display: block;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+header .acoes a.btn{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 0 26px;
+    transition-duration: 200ms;
+}
+header .acoes a.btn:hover{
+    background-color: #ffffff;
+    color: #f501e9;
+}
