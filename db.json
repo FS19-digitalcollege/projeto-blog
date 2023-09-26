@@ -1,0 +1,25 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "imagem": "https://static.poder360.com.br/2021/12/heleno-atentado-bolsonaro-14-dez-2021-848x477.jpg",
+            "titulo": "Heleno diz que vai silenciar sobre delação de Cid",
+            "categoria": "politica",
+            "texto": "Ex-ajudante de ordens relatou à PF uma consulta do ex-presidente Jair Bolsonaro à cúpula militar sobre a possibilidade de um golpe de Estado."
+        },
+        {
+            "id": 2,
+            "imagem": "https://media.gettyimages.com/id/540166307/pt/foto/members-of-the-bandidos-biker-gang-attend-the-funeral-of-fellow-member-sasha-milenkovic-at-the.jpg?s=612x612&w=gi&k=20&c=XFslNu6eK6rV9qBElCCgBKxNiokRfO69Fbt_Zgde5qs=",
+            "titulo": "Área onde bandidos são treinados em favela é cercada por 5 escolas e uma creche",
+            "categoria": "noticia",
+            "texto": "O local dominado por traficantes do Complexo da Maré, na Zona Norte do Rio, conta com uma quadra, onde eles se prepararam para as guerras do bando, e uma piscina de uso exclusivo."
+        },
+        {
+            "id": 3,
+            "imagem": "https://uploads.metropoles.com/wp-content/uploads/2023/09/13144602/Supremo-Tribunal-Federal-STF-inicia-o-julgamento-dos-denunciados-pela-invasa%CC%83o-e-depredac%CC%A7a%CC%83o-dos-pre%CC%81dios-dos-Tre%CC%82s-Poderes-no-dia-8-de-janeiro-6.jpg",
+            "titulo": "Moraes vota para condenar mais 5 réus dos atos golpistas e propõe penas de 12 a 17 anos de prisão",
+            "categoria": "cachorrada em brazilia",
+            "texto": "Novo julgamento começou nesta terça-feira (26), no plenário virtual da Corte. Outros três réus já foram condenados pelo STF por envolvimento nos ataques."
+        }
+    ]
+}

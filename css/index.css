@@ -73,3 +73,104 @@ header .acoes a.btn:hover{
     background-color: #ffffff;
     color: #f501e9;
 }
+
+main{
+    width: 65%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+main article{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 26px;
+}
+main article .imagem{
+    width: 250px;
+    height: 250px;
+    background-color: #CCCCCC;
+    border-radius: 10px;
+}
+main article .imagem img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+main article .conteudo{
+    flex: 1;
+    position: relative;
+}
+main article .conteudo box-icon{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition-duration: 200ms;
+    border-radius: 20px;
+    cursor: pointer;
+}
+main article .conteudo box-icon:hover{
+    background-color: #CCCCCC;
+}
+main article .conteudo h1{
+    line-height: 40px;
+    padding-right: 60px;
+}
+main article .conteudo h6{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+main article .conteudo p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+main article .conteudo a{
+    display: inline-block;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0 26px;
+    color: #ffffff;
+    font-weight: bold;
+    transition-duration: 200ms;
+    background-image: linear-gradient(90deg, #f501e9, #2600fb);
+    background-size: 200%;
+    background-position: center left;
+}
+main article .conteudo a:hover{
+    background-position: center right;
+}
+
+aside{
+    padding: 100px 100px 0 60px;
+}
+aside ul{
+    margin-top: 26px;
+}
+aside ul li{
+    margin-bottom: 16px;
+}
+aside ul li a{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: black;
+}
+aside ul li a img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
