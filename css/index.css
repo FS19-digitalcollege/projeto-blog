@@ -153,6 +153,7 @@ main article .conteudo a:hover{
 }
 
 aside{
+    width: 35%;
     padding: 100px 100px 0 60px;
 }
 aside ul{
@@ -173,4 +174,11 @@ aside ul li a img{
     display: block;
     object-fit: cover;
     border-radius: 5px;
+}
+aside ul li a h4{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Resultado da pesquisa</h1>
+    <ul></ul>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const pesquisa = urlParams.get("pesquisa");
+
+        fetch(`http://localhost:3000/posts?titulo_like=${pesquisa}`)
+        .then(resposta => resposta.json())
+        .then(listaDeRespostas => {
+            let ul = document.querySelector('ul');
+            listaDeRespostas.forEach(post => {
+                ul.innerHTML += `
+                    <li>
+                        <a>${post.titulo}</a>    
+                    </li>
+                `;
+            });
+        })
+    </script>
+</body>
+</html>
